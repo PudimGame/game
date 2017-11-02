@@ -455,8 +455,8 @@ void stageOne(ALLEGRO_DISPLAY *display, ALLEGRO_EVENT_QUEUE *event_queue, int *g
           if(pudipudao.x-camera_x<MARGEM) camera_x=pudipudao.x-MARGEM;
           if(pudipudao.x-camera_x>WIDTH-MARGEM-L_JOG) camera_x=pudipudao.x-(WIDTH-MARGEM-L_JOG);
 
-          if(pudipudao.y-camera_y<MARGEM) camera_y=pudipudao.y-MARGEM;
-          if(pudipudao.y-camera_y>HEIGHT-MARGEM-A_JOG) camera_y=pudipudao.y-(HEIGHT-MARGEM-A_JOG);
+          if(pudipudao.y-camera_y<45) camera_y=pudipudao.y-45;
+          if(pudipudao.y-camera_y>HEIGHT-45-A_JOG) camera_y=pudipudao.y-(HEIGHT-45-A_JOG);
 
 
 
